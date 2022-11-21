@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Add New Employee</h2>
+        <hr>
+        <form action="saveServlet" method="post">
+            <table>
+                <tr>
+                    <td>Name:</td><td><input type="text" name="name" ></td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>Email:</td><td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>password:</td><td><input type="password" name="pass"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Save Details</button></td>
+                </tr>
+            </table>
+        </form>
+        <br/> 
+        <a href="viewDetails">View Employee</a>
+    </body>
+</html>
